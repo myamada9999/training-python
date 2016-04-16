@@ -35,4 +35,42 @@ test_list_3.insert(0, 'http://www.')
 
 print test_list_3
 
+test_list_4 = ['1', '2', '3', '2', '1']
+print test_list_4
 
+print '------------------------------------------------------------'
+
+test_list_4.remove('2')
+
+print test_list_4
+
+test_list_5 = ['1', '2', '3', '2', '1']
+print test_list_5
+
+print '------------------------------------------------------------'
+
+print test_list_5.pop(1)
+print test_list_5
+
+print test_list_5.pop()
+print test_list_5
+
+
+test_list_6 = ['1', '2', '3', '2', '1']
+print test_list_6
+
+print '------------------------------------------------------------'
+
+print test_list_6.index('2')
+
+test_list_7 = ['1', '2', '3', '2', '1']
+print test_list_7
+
+print '------------------------------------------------------------'
+
+print test_list_7.count('2')
+
+for i in range(test_list_7.count('2')):
+	test_list_7.remove('2')
+
+print test_list_7
