@@ -17,3 +17,8 @@ if __name__ == "__main__":
 	while counter < 10:
 		counter += 1
 		print counter
+
+	for num in range(100):
+		print num
+		if num == 10:
+			break;
