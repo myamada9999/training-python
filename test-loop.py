@@ -22,3 +22,9 @@ if __name__ == "__main__":
 		print num
 		if num == 10:
 			break;
+
+	for num in range(100):
+		if num % 10:
+			continue
+
+		print num
